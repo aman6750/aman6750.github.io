@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://i.pinimg.com/originals/49/f6/02/49f602a0fad0af8e1d170876ea32cfad.jpg") no-repeat center;
+    background: url("https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=900&t=st=1663426212~exp=1663426812~hmac=415ec6bee7cffd72d0aeaa3f557c94af0c095a82143d2dbf751807dd853b022e") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
