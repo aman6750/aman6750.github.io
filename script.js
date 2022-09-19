@@ -14,6 +14,7 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+    
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
