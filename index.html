@@ -289,8 +289,13 @@
 
 <!-- Prepare a container for your calendar. -->
 <div class="calendar">
-  <!-- Loading stuff -->
-  Loading the data just for you.
+ 
+</div>
+
+<div>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aman6750&theme=dark" />
+    <img src="https://github-readme-stats.vercel.app/api?username=aman6750&show_icons=true&locale=en&theme=dark"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman6750&theme=radical&langs_count=8" alt="aman6750"  />
 </div>
 
 
@@ -372,6 +377,20 @@
       </script>
 
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" ></script>
+
+<script>
+    GitHubCalendar(".calendar", "aman6750");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "aman6750", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "aman6750", {
+       proxy (aman6750) {
+         return fetch(`https://your-proxy.com/github?user=${aman6750}`)
+       }
+    }).then(r => r.text())
+</script>
 
     <script src="script.js"></script>
 </body>
