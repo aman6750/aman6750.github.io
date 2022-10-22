@@ -13,6 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 </head>
 <body>
@@ -30,6 +31,9 @@
                 <li><a href="#education" class="menu-btn">Education</a></li>
                 <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+
+                <li><a href="./resume/aman resum1.pdf" download="aman reum1">Resume</a></li>
+
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -229,7 +233,7 @@
     </section>
  <!-- academic details -->
 
-   <!--> teams section start -->
+  
      <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">Statistics Section</h2>
@@ -278,15 +282,10 @@
             </div>
         </div>
     </section>
-    <script
-src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-></script>
+   
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
- rel="stylesheet"
- href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+
 
 <!-- Prepare a container for your calendar. -->
 <div class="calendar">
@@ -294,11 +293,7 @@ src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
   Loading the data just for you.
 </div>
 
-<script>
-  GitHubCalendar(".calendar", "aman6750");
-  // or enable responsive functionality
-  GitHubCalendar(".calendar", "aman6750", { responsive: true });
-</script>
+
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
@@ -341,20 +336,20 @@ src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formspree.io/f/mjvzrrel" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
                             <input type="text" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -369,6 +364,14 @@ src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
     <footer>
         <span>Created By <a href="index.html">Aman</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
+
+    <script>
+        GitHubCalendar(".calendar", "aman6750");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "aman6750", { responsive: true });
+      </script>
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" ></script>
 
     <script src="script.js"></script>
 </body>
