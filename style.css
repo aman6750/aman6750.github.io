@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=900&t=st=1663426212~exp=1663426812~hmac=415ec6bee7cffd72d0aeaa3f557c94af0c095a82143d2dbf751807dd853b022e") no-repeat center;
+    background: url("https://wallpaperaccess.com/full/5065799.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -672,15 +672,18 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
-    .snap{
-        
-    }
+    .gitstrek {
+        width: 50%;
+      }
 }
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
+    .gitstrek {
+        width: 50%;
+      }
 }
 @media (max-width: 947px){
     .menu-btn{
@@ -757,7 +760,9 @@ footer span a:hover{
         color: crimson;
         
     }
-
+    .gitstrek {
+        width: 50%;
+      }
 
 
 
@@ -779,6 +784,15 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    #gitstrekdiv {
+        display: block;
+      }
+      #gitstrekdiv {
+        display: block;
+      }
+      .gitstrek {
+        width: 100%;
+      }
 }
 
 @media (max-width: 500px) {
@@ -818,4 +832,10 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    #gitstrekdiv {
+        display: block;
+      }
+      .gitstrek {
+        width: 100%;
+      }
 }
