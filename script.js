@@ -1,3 +1,13 @@
+document.getElementById("resume1").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/15b3sX5vHLPnRdn8v0xXYfSE04TDhUYmV/view?usp=sharing");
+})
+
+
+document.getElementById("resume2").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/15b3sX5vHLPnRdn8v0xXYfSE04TDhUYmV/view?usp=sharing");
+})
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
