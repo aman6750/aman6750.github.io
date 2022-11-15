@@ -834,15 +834,27 @@ footer span a:hover{
     }
     #gitstrekdiv {
         display: block;
-        padding: 1%;
+      
+
         
       }
       .gitstrek {
         width: 100%;
-        margin-left: 2%;
-        padding-left: 10%;
+        
       }
 
-
-     
 }
+
+#gitstrekdiv {
+    display: flex;
+  
+justify-content: center;
+align-items: center;
+    
+  }
+  .gitstrek {
+    width: 50%;
+    
+  }
+
+
